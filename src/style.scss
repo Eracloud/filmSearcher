@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.searchPanel {
+  &__search {
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  &__button {
+    width: 80px;
+    height: 34px;
+  }
+}
+
+.filmPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title,
+  &__year {
+    padding: 20px;
+  }
+  &__poster {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
